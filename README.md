@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Foodidelight
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
@@ -16,3 +17,7 @@ Add hotel is template-driven form.
 Edit hotel is Reactive forms.
 
 
+=======
+# repo1
+This is my first Repository
+>>>>>>> 56d61fb5fe0a505c629bb4543cd0595ddc3f9f23
