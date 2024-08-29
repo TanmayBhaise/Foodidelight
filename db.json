@@ -1,0 +1,31 @@
+{
+  "hotel": [
+    {
+      "id": "1",
+      "name": "New Star",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officia sapiente accusamus alias.",
+      "currentPrice": "15000",
+      "standardPrice": "30000",
+      "discount": "50",
+      "image": "assets/First.jfif"
+    },
+    {
+      "id": "2",
+      "name": "Moon Stone",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officia sapiente accusamus alias.",
+      "currentPrice": "15000",
+      "standardPrice": "30000",
+      "discount": "50",
+      "image": "assets/Second.jfif"
+    },
+    {
+      "id": "3",
+      "name": "Sun Shine",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum officia sapiente accusamus alias.",
+      "currentPrice": "15000",
+      "standardPrice": "30000",
+      "discount": "50",
+      "image": "assets/third.jfif"
+    }
+  ]
+}

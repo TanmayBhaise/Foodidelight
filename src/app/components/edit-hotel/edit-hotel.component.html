@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="col-md-3 col-sm-1"></div>
+    <div class="col-md-6 col-sm-10 p-30">
+        <form [formGroup]="hotelForm" (ngSubmit)="editHotel()">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="inputEmail4" class="mtb-10">Hotel Name</label>
+                    <input type="email" formControlName="name" class="form-control" placeholder="Enter Hotel Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail4" class="mtb-10">Hotel Description</label>
+                    <input type="text" formControlName="description" class="form-control"
+                        placeholder="Enter Hotel Name">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail4" class="mtb-10">Hotel Image</label>
+                    <input type="text" formControlName="image" class="form-control" placeholder="Enter Hotel Name">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail4" class="mtb-10">Hotel Current Price</label>
+                    <input type="text" formControlName="currentPrice" class="form-control"
+                        placeholder="Enter Hotel Name">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail4" class="mtb-10">Hotel Standard Price</label>
+                    <input type="text" formControlName="standardPrice" class="form-control"
+                        placeholder="Enter Hotel Name">
+                </div>
+                <div class="form-group" class="mtb-10">
+                    <label for="inputEmail4">Hotel Discount</label>
+                    <input type="text" formControlName="discount" class="form-control" placeholder="Enter Hotel Name">
+                </div>
+                <div class="form-group" class="mtb-10">
+                    <button type="submit" class="btn btn-primary">Update</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-3 col-sm-1"></div>
+</div>

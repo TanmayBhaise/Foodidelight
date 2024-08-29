@@ -1,0 +1,12 @@
+<div *ngIf="hotelList.length == 0; else elseBlock">
+    <h3>
+        No Recordes to show
+    </h3>
+</div>
+<ng-template #elseBlock>
+    <div class="row">
+        <div *ngFor="let hotel of hotelList; index as i" class="col-lg-3 col-md-6 col-sm-12">
+            <app-card [hotel]="hotel" (deleteData)="deleteData($event)" (editData)="editData($event)"></app-card>
+        </div>
+    </div>
+</ng-template>
